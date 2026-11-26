@@ -1,0 +1,25 @@
+{
+  "name": "agente-whatsapp-claude",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tu agente de WhatsApp con Claude: Zernio recibe el mensaje, Claude responde con la información de tu negocio.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.14.0",
+    "@hono/node-server": "^2.1.11",
+    "hono": "^4.13.23",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.11",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.2"
+  }
+}
