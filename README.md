@@ -12,6 +12,12 @@ Tu app en Railway le pasa la conversación y negocio.md a Claude
 Claude escribe la respuesta → Zernio la envía por WhatsApp
 ```
 
+## La forma fácil: el prompt maestro
+
+Instala [Claude Code](https://claude.com/claude-code), ábrelo y pega el [prompt maestro](prompts/00-prompt-maestro.md). Claude instala lo que falte, crea tu carpeta `clase-claude` en el Escritorio, trae este agente, instala cinco skills, te entrevista para la ficha de tu negocio, lo sube a GitHub y te guía en Railway y WhatsApp. Si se corta, vuelve a pegarlo: retoma donde quedó.
+
+Si prefieres hacerlo a mano, sigue los pasos de abajo.
+
 ## Qué necesitas (10 minutos, antes de empezar)
 
 | Cuenta | Para qué | Costo |
